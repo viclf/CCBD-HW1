@@ -12,7 +12,7 @@ application.debug=True
 
 
 #Connect the Dynamo DB and get the Tweets Table
-DB = DynamoDB('...','...','us-east-1','TweetsTable')
+DB = DynamoDB('keyID','privateKey','us-east-1','TweetsTable')
 tweets = DB.getTweetsForView()
 
 #fill with bs example 
