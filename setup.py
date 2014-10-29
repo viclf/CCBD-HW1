@@ -17,7 +17,7 @@ if not os.path.exists("./.git/"):
 #elif not os.path.exists("./.elasticbeanstalk/"):
 
 else:
-    subp2 = subprocess.call(['export PATH=$PATH:/Users/Vico/AWS-ElasticBeanstalk-CLI-2.6.3/eb/linux/python2.7/'],shell=True)
+    subp2 = subprocess.call(['export PATH=$PATH:/.../AWS-ElasticBeanstalk-CLI-2.6.3/eb/linux/python2.7/'],shell=True)
     subp3 = subprocess.call(['eb init -I  -S  -a CCBD-HW1 -e CCBD-HW1-env -t 1 -s 64bit Amazon Linux 2014.03 v1.0.9 running Python --force --region us-east-1'],shell=True)
     print(colored("elasticbeanstalk initialized\n","green"))
 
