@@ -38,7 +38,9 @@ The map is kind of a density map as the tweet's markers have been made transpare
 
 Link to application: http://ccbd-hw1-env-fmvbmm7vhj.elasticbeanstalk.com/
 
-
+Tweeter Stream
+The application uses the tweet4j library to stream tweets and update dynamoDB constantly.
+The database is updated for only public tweets with a geolocation tag.
 
 Github source code:
 https://github.com/viclf/CCBD-HW1
