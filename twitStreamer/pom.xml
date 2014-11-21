@@ -94,6 +94,11 @@
     </mailingLists>
     <dependencies>
         <dependency>
+        	<groupId>com.amazonaws</groupId>
+        	<artifactId>aws-java-sdk</artifactId>
+        	<version>1.9.0</version>
+   	</dependency>
+	<dependency>
             <groupId>org.twitter4j</groupId>
             <artifactId>twitter4j-core</artifactId>
             <version>4.0.2</version>
